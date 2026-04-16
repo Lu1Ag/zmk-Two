@@ -1,0 +1,7 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_CORNE_LEFT-NICE_NANO_V2
+    def_bool $(shields_list_contains,corne_left-nice_nano_v2)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_CORNE_RIGHT-NICE_NANO_V2
+    def_bool $(shields_list_contains,corne_right-nice_nano_v2)
