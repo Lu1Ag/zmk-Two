@@ -46,16 +46,16 @@
                         bindings = <
    &kp INS    &bt BT_CLR   &trans     &kp UP       &trans     &kp LC(LA(DEL))     &kp C_AC_ZOOM_IN   &kp HOME  &kp UP     &kp PG_UP  &kp C_AC_SCROLL_UP   &kp DEL
    &kp LCTRL  &none        &kp LEFT   &kp DOWN     &kp RIGHT  &trans     &none              &kp LEFT  &kp DOWN  &kp RIGHT  &none                &td0
-   &kp LSHFT  &out OUT_TOG &trans     &trans       &trans     &trans     &kp C_AC_ZOOM_OUT  &kp END   &trans    &kp PG_DN  &kp C_AC_SCROLL_DOWN &kp ESC
+   &kp LSHFT  &out OUT_TOG &trans     &trans       &trans     &soft_off     &kp C_AC_ZOOM_OUT  &kp END   &trans    &kp PG_DN  &kp C_AC_SCROLL_DOWN &kp ESC
                        	     &kp LALT     &trans     &kp RET    &kp SPACE  &trans   &kp RGUI
                         >;
                 };
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// | INS  |  F1  |  F2  |  F3  |  F4  |  F5  |   |  1  |  2  |  3  |  4  |  5  | BKSP |
-// | CTRL |  F6  |  F7  |  F8  |  F9  |  F10 |   |  6  |  7  |  8  |  9  |  0  |  '   |
-// | SHFT |  F11 |  F12 |  ~   |   [  |   ]   |  |  -  |  =  |  \  |     |     |  ESC   |
+// | INS  |  F1  |  F2  |  F3  |  F4  |  F5  |   |  1 !  |  2 @  |  3 #  |  4 $  |  5 %  | BKSP |
+// | CTRL |  F6  |  F7  |  F8  |  F9  |  F10 |   |  6 ^  |  7 &  |  8 *  |  9 )  |  0 )  |  '   |
+// | SHFT |  F11 |  F12 |  ~   |   [  |   ]   |  |  -   |  =  |  \  |     |     |  ESC   |
 //                    | ALT |     | ENT |   | SPC |     | GUI |
                         bindings = <
    &kp INS   &kp F1   &kp F2   &kp F3     &kp F4    &kp F5    &kp N1    &kp N2    &kp N3   &kp N4   &kp N5   &kp BSPC
